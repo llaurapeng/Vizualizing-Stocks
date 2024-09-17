@@ -3,6 +3,6 @@ streamlit
 plotly
 datetime
 figure
-numpy==1.21.6
-pandas-ta==0.4.1b0
-pandas==2.0.0
+numpy
+pandas-ta
+pandas
