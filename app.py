@@ -7,6 +7,7 @@ from plotly.subplots import make_subplots
 import pandas as pd
 from datetime import datetime
 import pandas_ta as ta
+import numpy
 import figure
     
 st.set_page_config(layout="wide")
