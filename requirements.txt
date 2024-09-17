@@ -4,4 +4,4 @@ plotly
 pandas
 datetime
 figure
-TA-Lib
+ta-lib
