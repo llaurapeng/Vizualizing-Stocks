@@ -6,7 +6,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import pandas as pd
 from datetime import datetime
-import talib as ta
+import pandas_ta as ta
 import figure
     
 st.set_page_config(layout="wide")
@@ -80,7 +80,7 @@ def get_data (type):
 
 
     market_cap = info.get('marketCap', 'N/A')  
-    df ['RSI'] = ta.RSI (df['Close'])
+    df ['RSI'] = ta.rsi(df['Close'])
     curr_val = round (df ['Close'].iloc [-1],2)
     first_val = df ['Close'].iloc [0]
     percent_change =round (((curr_val - first_val / first_val) * 100),2)
