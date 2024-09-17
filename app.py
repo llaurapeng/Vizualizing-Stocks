@@ -6,7 +6,6 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import pandas as pd
 from datetime import datetime
-import talib as ta
 import figure
     
 st.set_page_config(layout="wide")
