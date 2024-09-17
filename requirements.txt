@@ -3,6 +3,5 @@ streamlit
 plotly
 datetime
 figure
-numpy
-pandas-ta
+ta
 pandas
