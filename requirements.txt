@@ -1,9 +1,7 @@
 yfinance
 streamlit
-plotly.graph_objects
-plotly.express 
-plotly.subplots 
-pandas_ta as ta
+plotly
+pandas
 datetime
-talib 
 figure
+pandas-ta
