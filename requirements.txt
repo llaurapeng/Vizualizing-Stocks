@@ -1,0 +1,9 @@
+yfinance
+streamlit
+plotly.graph_objects
+plotly.express 
+plotly.subplots 
+pandas
+datetime
+talib 
+figure
