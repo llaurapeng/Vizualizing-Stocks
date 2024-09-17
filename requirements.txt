@@ -1,8 +1,8 @@
 yfinance
 streamlit
 plotly
-pandas
 datetime
 figure
-pandas-ta
-numpy
+numpy==1.21.6
+pandas-ta==0.4.1b0
+pandas==2.0.0
